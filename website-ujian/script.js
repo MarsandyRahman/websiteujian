@@ -761,3 +761,4 @@ function cancelEditGuruUser() {
     const area = document.getElementById('edit-guru-area');
     if (area) area.innerHTML = '';
 }
+//end of today
