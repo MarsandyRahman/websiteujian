@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Ujian Pilihan Ganda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="main-title">Selamat Datang di Aplikasi Ujian</h1>
+            <div id="user-dashboard" style="display:none;"></div>
+            <button id="logout-btn" style="display:none; margin-bottom:16px;" onclick="logout()">Logout</button>
+        </header>
+        <div id="login-section">
+            <h2>Login</h2>
+            <input type="text" id="userid" placeholder="ID Pengguna">
+            <input type="password" id="password" placeholder="Password">
+            <button onclick="login()">Masuk</button>
+        </div>
+        <div id="quiz-section" style="display:none;"></div>
+        <div id="result-section" style="display:none;"></div>
+        <div id="manage-section" style="display:none;"></div>
+    </div>
+    <script src="data.js"></script>
+    <script src="auth.js"></script>
+    <script src="management.js"></script>
+    <script src="quiz.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
